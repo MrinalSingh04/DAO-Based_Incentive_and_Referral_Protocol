@@ -1,4 +1,5 @@
-# MLM DAO Protocol - Commission, Rank & Pool System
+# DAO-Based Incentive & Referral Protocol
+
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Solidity](https://img.shields.io/badge/Solidity-0.8.26-blue.svg)](https://soliditylang.org)
