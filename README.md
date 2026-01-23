@@ -64,7 +64,7 @@ The MLM DAO Protocol implements a sophisticated referral and reward system with 
 ## 🏗️ Contract Architecture
 
 ### 📁 Project Structure
-\`\`\`
+
 src/
 ├── nft/
 │   ├── SeedNFT.sol        # SEED NFT (10% L1 commission)
@@ -85,7 +85,7 @@ src/
 │   └── Percentages.sol    # All commission & pool constants
 └── errors/
     └── ProtocolErrors.sol # Custom errors (gas optimized)
-\`\`\`
+
 
 ### 🔗 Contract Relationships
 \`\`\`mermaid
@@ -142,16 +142,16 @@ forge script script/DeploySepolia.s.sol:DeploySepolia \\
 # Run all tests
 forge test
 
-# Run specific test suite
+### Run specific test suite
 forge test --match-contract ProtocolTest -vvv
 
-# Run validation tests (critical math verification)
+### Run validation tests (critical math verification)
 forge test --match-contract ValidationTest -vvv
 
-# Generate gas report
+### Generate gas report
 forge test --gas-report
 
-# Run with coverage
+### Run with coverage
 forge coverage
 \`\`\`
 
@@ -249,18 +249,18 @@ treasury.unlock(user);
 git clone <repository-url>
 cd mlm-dao-protocol
 
-# Install Foundry
+### Install Foundry
 curl -L https://foundry.paradigm.xyz | bash
 foundryup
 
-# Install dependencies
+### Install dependencies
 forge install OpenZeppelin/openzeppelin-contracts
 forge install foundry-rs/forge-std
 
-# Build contracts
+### Build contracts
 forge build
 
-# Run tests
+### Run tests
 forge test
 \`\`\`
 
@@ -277,21 +277,21 @@ ETHERSCAN_API_KEY=YOUR_KEY
 
 ### Scripts
 \`\`\`bash
-# Build
+### Build
 forge build
 
-# Test
+### Test
 forge test
 forge test --gas-report
 
-# Format code
+### Format code
 forge fmt
 
-# Deploy locally
+### Deploy locally
 anvil
 forge script script/Deploy.s.sol --rpc-url http://localhost:8545 --broadcast
 
-# Deploy to Sepolia
+### Deploy to Sepolia
 forge script script/DeploySepolia.s.sol --rpc-url $SEPOLIA_RPC_URL --broadcast --verify
 \`\`\`
 
