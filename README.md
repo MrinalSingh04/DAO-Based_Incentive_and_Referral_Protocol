@@ -290,10 +290,14 @@ forge fmt
 
 ### Deploy locally
 anvil
-forge script script/Deploy.s.sol --rpc-url http://localhost:8545 --broadcast
+forge script script/Deploy.s.sol
+--rpc-url http://localhost:8545
+--broadcast
 
 ### Deploy to Sepolia
-forge script script/DeploySepolia.s.sol --rpc-url $SEPOLIA_RPC_URL --broadcast --verify
+forge script script/DeploySepolia.s.sol
+--rpc-url $SEPOLIA_RPC_URL 
+--broadcast --verify
 \`\`\`
 
 ## 🔒 Security
