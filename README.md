@@ -336,6 +336,5 @@ For issues, questions, or contributions:
 ---
 
 **Disclaimer**: This is a technical implementation for educational purposes. Consult legal and financial advisors before deploying in production environments.
-' > README.md``
            
 
