@@ -9,7 +9,7 @@
 
 A complete Multi-Level Marketing (MLM) protocol with DAO treasury, commission structure, rank system, and pool distribution built on Ethereum. 
 
-## 📋 Table of Contents 
+## 📋 Table of Contents  
 - [Overview](#overview)
 - [Features](#features)
 - [Contract Architecture](#contract-architecture)
@@ -332,7 +332,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-For issues, questions, or contributions:
+For issues, questions, or contributions: 
 - Open an issue on GitHub
 - Contact the development team
 - Refer to contract documentation
