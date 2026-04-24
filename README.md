@@ -8,7 +8,7 @@
 [![Sepolia Deployed](https://img.shields.io/badge/Sepolia-Deployed-6c8ee6.svg)](https://sepolia.etherscan.io)
 
 A complete Multi-Level Marketing (MLM) protocol with DAO treasury, commission structure, rank system, and pool distribution built on Ethereum. 
-
+ 
 ## 📋 Table of Contents  
 - [Overview](#overview)
 - [Features](#features)
